@@ -1,0 +1,65 @@
+header{
+    background-color: bisque;
+    color: rgba(196, 157, 29, 0.607);
+    font-size: large;
+    height: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm-sqpisIUBjeuZJtsOCMnV-aepfh4IVK2uA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+body{
+    margin: 0;
+}
+h1{
+   text-align: center; 
+   font-size: 80px;
+   color: rgb(255, 0, 0);
+   text-shadow: black 5px 5px;
+}
+h2{
+    text-align: center;
+}
+
+main{
+    background-color: aqua;
+    color: black;
+    font-size: medium;
+    height: 600px;
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: brown;
+    color:crimson;
+    font-size: medium;
+    height: 250px;
+    
+}
+.block-1{
+    background-color: darkviolet;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10%;
+}
+.block-2{
+    background-color: plum;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.block-21{
+    background-color: rgb(58, 58, 110);
+    width: 100%;
+    height: 50%;
+}
+.block-22{
+    background-color: rgb(148, 148, 62);
+    width: 100%;
+    height: 50%;
+}
