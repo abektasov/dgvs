@@ -1,65 +1,27 @@
-header{
-    background-color: bisque;
-    color: rgba(196, 157, 29, 0.607);
-    font-size: large;
-    height: 300px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm-sqpisIUBjeuZJtsOCMnV-aepfh4IVK2uA&usqp=CAU);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 50px;
-}
-
 body{
-    margin: 0;
-}
-h1{
-   text-align: center; 
-   font-size: 80px;
-   color: rgb(255, 0, 0);
-   text-shadow: black 5px 5px;
-}
-h2{
-    text-align: center;
-}
-
-main{
-    background-color: aqua;
-    color: black;
-    font-size: medium;
-    height: 600px;
     display: flex;
-}
-h2{
+    justify-content: center;
     text-align: center;
+    padding: 50px;
+    background-color: rgb(22, 121, 121);
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-footer{
-    background-color: brown;
-    color:crimson;
-    font-size: medium;
-    height: 250px;
-    
+button{
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 10px;
 }
-.block-1{
-    background-color: darkviolet;
+.row div{
+    padding: 10px;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
     float: left;
-    width: 50%;
-    height: 100%;
-    padding: 10%;
-}
-.block-2{
-    background-color: plum;
-    float: right;
-    width: 50%;
-    height: 100%;
-}
-.block-21{
-    background-color: rgb(58, 58, 110);
-    width: 100%;
-    height: 50%;
-}
-.block-22{
-    background-color: rgb(148, 148, 62);
-    width: 100%;
-    height: 50%;
+    color:  blue;
 }
